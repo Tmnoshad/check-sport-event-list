@@ -1,0 +1,162 @@
+#error {
+  display: none;
+}
+
+.input-left {
+  background-color: #3F4A7A;
+  color: white;
+
+}
+
+.input-right {
+  background-color: #98B4AA;
+  color: rgb(36, 34, 34);
+
+}
+
+.card-icon i {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 30px
+}
+
+.card-icon i:first-child {
+  color: #087AEA;
+}
+
+.card-icon i:nth-child(2) {
+  color: #CF2E80;
+}
+
+.card-icon i:last-child {
+  color: #0e76a8;
+}
+
+.custom-design {
+  background-color: #e9f7f5;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.custom-design p {
+  font-size: 17PX;
+}
+
+#player-btn {
+  background-color: #5e75dd;
+  color: white;
+}
+
+#event-btn {
+  background-color: rgb(81, 119, 106);
+  border: none;
+}
+
+#input-player {
+  background-color: #ced7ff;
+}
+
+#event-input {
+  background-color: #d9e6e1;
+}
+
+.card-icons i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #3F4A7A;
+}
+
+
+#spinner {
+  display: none;
+}
+
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: rgb(53, 147, 255);
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
